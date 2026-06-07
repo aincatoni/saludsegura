@@ -621,6 +621,10 @@ button {
     grid-template-columns: 1fr;
   }
 
+  .screen-with-bottom-nav {
+    padding-bottom: calc(132px + env(safe-area-inset-bottom));
+  }
+
   .sidebar {
     border-right: 0;
     border-bottom: 1px solid rgba(215, 232, 231, 0.9);
